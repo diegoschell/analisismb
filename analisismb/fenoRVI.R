@@ -3,7 +3,7 @@ library(rgdal)
 library(ggplot2)
 library(GGally)
 setwd("~/owncloud/7-aplicaciones")
-camino <- "monte-buey/RVI-COSMO/"
+camino <- "monte-buey/extraccion/"
 
 # Defino que imagenes abrir de los indices
 files <- list.files(path = camino, pattern = '.tif$', full.names = TRUE)
