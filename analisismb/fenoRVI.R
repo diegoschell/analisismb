@@ -16,7 +16,7 @@ indices <- crop(indices, extent(cosmo))
 indices <- resample(indices,cosmo,method="ngb")
 # Apilo todo
 apilado <- stack(indices,cosmo)
-
+#blah blha
 # Cargo el vector para hacer el muestreo
 poligonoextraccion <- readOGR(dsn="monte-buey", layer="testindicies")
 
